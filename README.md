@@ -25,15 +25,15 @@ A simple **Flask web application** that allows users to submit their information
 
 ### Initialize database
 
-sqlite3 database/users.db < queries/schema.sql
+`sqlite3 database/users.db < queries/schema.sql`
 
 ### Run application
 
-python3 index.py
+`python3 index.py`
 
 ### Online workbench (Optional)
 
-sqlite_web database/users.db
+`sqlite_web database/users.db`
 
 ## Coming Soon
 
