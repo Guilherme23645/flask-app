@@ -15,7 +15,7 @@ A simple **Flask web application** that allows users to submit their information
  - Python 3.8+
  - Flask (Run `pip install flask`)
  - SQLite3 Database
-   - `sudo <apckage-manager> install sqlite3` (Linux)
+   - `sudo <package-manager> install sqlite3` (Linux)
    - `brew install sqlite` (macOS)
    - Download from https://www.sqlite.org/download.html (Windows)
  - SQLite3 for Python (Bundled with Python)
@@ -34,3 +34,9 @@ python3 index.py
 ### Online workbench (Optional)
 
 sqlite_web database/users.db
+
+## Coming Soon
+
+ - Update user info function
+ - Delete user function
+ - Flashes for warning
