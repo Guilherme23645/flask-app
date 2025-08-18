@@ -1,0 +1,28 @@
+<form style="
+border: 2px solid gray;
+border-radius: 10px;
+padding: 20px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;" method="POST" action="/submit">
+
+<!-- Username Field -->
+<input type="text" name="username" value="{{ request.form.get('username', '') }}" placeholder="Username">
+<br><br>
+
+<!-- Email Field -->
+<input type="email" name="email" value="{{ request.form.get('email', '') }}" placeholder="Email">
+<br><br>
+
+<!-- Name Field -->
+<input type="text" name="name" value="{{ request.form.get('name', '') }}" placeholder="Name">
+<br><br>
+
+<!-- Age Field -->
+<input type="number" name="age" value="{{ request.form.get('age', '') }}" placeholder="Age">
+<br><br>
+
+<!-- Submit Button -->
+<input type="submit">
+</form>
