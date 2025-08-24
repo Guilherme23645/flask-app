@@ -25,7 +25,11 @@ A simple **Flask web application** that allows users to submit their information
 
 ### Initialize database
 
-`sqlite3 database/users.db < queries/schema.sql`
+`sqlite3 database/users.db < database/queries/schema.sql`
+
+#### You may also need to change file permissions
+
+`sudo chown -R $USER:$USER database/users.db`
 
 ### Run application
 
